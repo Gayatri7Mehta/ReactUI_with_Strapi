@@ -8,9 +8,9 @@ const Posts = () => {
   useEffect(() => {
     axios.get('http://localhost:1337/api/posts')
       .then(response => {
-        // Extract the 'data' array from the response
+        
         const postsData = response.data.data;
-        console.log(postsData); // Log the data to ensure the structure is correct
+        console.log(postsData); 
         setPosts(postsData);
         setLoading(false);
       })
