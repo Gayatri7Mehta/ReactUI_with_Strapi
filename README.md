@@ -1,4 +1,4 @@
-##This repository conatins source code for integrating Reactive UI with Strapi Backend.
+##This repository contains source code for integrating Reactive UI with Strapi Backend.
 
 ##Overview:
 1. build strapi app locally
